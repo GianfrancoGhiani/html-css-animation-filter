@@ -98,7 +98,26 @@ img.ex-9-img{
     transition: filter 3s, border-radius 3s, width 3s;
 }
 img.ex-9-img:hover{
-    filter: sepia() brightness(80%);
+    filter: sepia(1) brightness(80%);
     border-radius: 20px;
     width:400px;
+}
+/* esercizio 10 */
+@keyframes rotate{
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.ex-10-icon{
+    animation: rotate 4s infinite;
+    animation-timing-function: linear;
 }
