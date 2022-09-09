@@ -79,3 +79,11 @@
 .ex-7-img:hover{
     filter: sepia(1) brightness(1);
 }
+/* esercizio 8 */
+.ex-8-img{
+    transition: filter 3s, border-radius 3s;
+}
+.ex-8-img:hover{
+    filter: saturate(0.2);
+    border-radius: 20px;
+}
