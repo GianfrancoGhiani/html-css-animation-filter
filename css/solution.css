@@ -30,3 +30,13 @@
 .ex-3-square:hover{
     border-radius: 50%;
 }
+/* esercizio 4  */
+.ex-4-square{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: opacity 1s ease-in-out;
+}
+.ex-4-square:hover{
+    opacity: 0;
+}
