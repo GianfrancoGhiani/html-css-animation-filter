@@ -73,17 +73,32 @@
 }
 
 /* esercizio 7 */
+
 .ex-7-img{
     transition: filter 3s;
 }
 .ex-7-img:hover{
-    filter: sepia(1) brightness(1);
+    filter: sepia(1) brightness(1.5);
 }
+
 /* esercizio 8 */
+
 .ex-8-img{
     transition: filter 3s, border-radius 3s;
 }
 .ex-8-img:hover{
-    filter: saturate(0.2);
+    filter: saturate(0.2) brightness();
     border-radius: 20px;
+}
+
+/* esercizio 9 */
+
+img.ex-9-img{
+    width: 300px;
+    transition: filter 3s, border-radius 3s, width 3s;
+}
+img.ex-9-img:hover{
+    filter: sepia() brightness(80%);
+    border-radius: 20px;
+    width:400px;
 }
